@@ -1,0 +1,13 @@
+cd 62E2env
+cd Scripts
+activate.bat
+.\activate.bat
+ echo %PATH%\
+ echo %PATH%
+pip freeze#check installed packages
+pip install numpy
+pip freeze#check numpy installation
+pip install PyOpenGL PyOpenGL_accelerate
+
+
+Folder create on desktop Example lab1 >>>>>open with vscode>>>>>go to terminal>>>>>choose command prompt>>>>>write codes from python -m venv 62E2emb go to cd 62E2emb go to cd Scripts then activate.bat>>>>>pyopengl install**= pip install PyOpenGL** PyOpenGL_accelerate >>>>>create file main.py>>>>>then cd.. >>>>>cd.. >>>>>back to the folder and run python main.py
